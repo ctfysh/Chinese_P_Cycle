@@ -1,6 +1,15 @@
 Chinese P cycle
 =================================================
 
+The programs depend on R packages: "dplyr", "tidyr", "sqldf" and "triangle". You can install the latest released version from CRAN with:
+
+``` r
+install.packages("dplyr")
+install.packages("tidyr")
+install.packages("sqldf")
+install.packages("triangle")
+```
+
 1 Data manipulation
 -------------------------------------------------
 Worksheets in “data.xlsx” are first transformed into three .csv files, namely “d_acts.csv”, “d_pars.csv” and “d_nodes.csv”, respectively. We then use “data.r” to manipulate these raw data and convert them into R data format “data.Rdata”.
