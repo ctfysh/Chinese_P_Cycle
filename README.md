@@ -16,7 +16,7 @@ Worksheets in “data.xlsx” are first transformed into three .csv files, namel
 
 2 P flow calculation
 -------------------------------------------------
-- **P flow modeling**: P flow modelling is conducted by running “pflow.r” with “data.Rdata”. Each P flow is expressed in the form of PF[“N##”, “N##”,], an R array with 3 dimensions, representing a P flow from the source compartment to the sink compartment. Detailed description of all the variables used in this file can be found in the Supplementary Information.
+- **P flow modeling**: P flow modelling is conducted by running “pflow.r” with “data.Rdata”. Each P flow is expressed in the form of `PF[“N##”, “N##”,]`, an R array with 3 dimensions, representing a P flow from the source compartment to the sink compartment. Detailed description of all the variables used in this file can be found in the Supplementary Information.
 
 - **P flow aggregation**: The “cflow.r” contains an R function “cf” which transforms the basic P flows into the aggregated 102 P flows.
 
